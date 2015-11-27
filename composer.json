@@ -1,5 +1,5 @@
 {
-    "name": "xu-feng/emoji_clean",
+    "name": "xu-feng/emoji-clean",
     "description": "Emoji expression in the string.",
     "type": "library",
     "keywords": ["emoji", "php"],
@@ -12,5 +12,5 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
