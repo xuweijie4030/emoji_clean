@@ -12,9 +12,5 @@
             "role": "Developer"
         }
     ],
-    "repositories": [{
-        "type": "git",
-        "url": "https://github.com/xu-feng/emoji_clean"
-    }],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
