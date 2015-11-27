@@ -3,6 +3,7 @@
     "description": "Emoji expression in the string.",
     "type": "library",
     "keywords": ["emoji", "php"],
+    "homepage": "https://github.com/xu-feng/emoji_clean",
     "license": "MIT",
     "authors": [
         {
