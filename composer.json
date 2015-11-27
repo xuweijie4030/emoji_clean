@@ -11,5 +11,10 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Fengshangyue\\Emoji_clean\\": ""
+        }
+    },
     "minimum-stability": "dev"
 }
