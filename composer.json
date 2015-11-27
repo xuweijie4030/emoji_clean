@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "fengshangyue\\emoji_clean\\": ""
+            "Fengshangyue\\Emoji_clean\\": ""
         }
     },
     "minimum-stability": "dev"
