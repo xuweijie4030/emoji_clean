@@ -12,5 +12,8 @@
             "role": "Developer"
         }
     ],
+    "require": {
+        "xu-feng/emoji_clean" : "~1.0"
+    },
     "minimum-stability": "dev"
 }
