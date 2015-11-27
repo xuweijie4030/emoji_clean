@@ -1,0 +1,18 @@
+{
+    "name": "xu-feng/emoji_clean",
+    "description": "Emoji expression in the string.",
+    "type": "library",
+    "keywords": ["emoji", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xu Feng",
+            "email": "yucunxufeng@163.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {"type": "git", "url": "https://github.com/xu-feng/emoji_clean"},
+        {"packagist": false}
+    ]
+}
