@@ -4,9 +4,11 @@
  * $emojiCode : 2015-11-26 最新版ios9键盘全部自带表情utf8码与英文名称
  * **/
 
+namespace Fengshangyue\Emoji_clean;
+
 class Emoji {
 
-    private $emojiCode = [
+    private static $emojiCode = [
         "\xf0\x9f\x98\x80" => "Grinning Face",
         "\xf0\x9f\x98\x81" => "Grinning Face With Smiling Eyes",
         "\xf0\x9f\x98\x82" => "Face With Tears of Joy",
@@ -1620,12 +1622,17 @@ class Emoji {
      * 替换ios键盘自带表情
      * $repalceType    true : 表示用英文名字替换表情     false : 表示将表情替换为空
      * **/
-    public function emoji_convert($text, $replaceType = false)
+    public static function convert($text, $replaceType = false)
     {
         if ($replaceType) {
-            return str_replace(array_keys($this->emojiCode), array_values($this->emojiCode), $text);
+            return str_replace(array_keys(self::$emojiCode), array_values(self::$emojiCode), $text);
         }
-        return str_replace(array_keys($this->emojiCode), '', $text);
+        return str_replace(array_keys(self::$emojiCode), '', $text);
+    }
+    
+    public static function clean($text)
+    {
+        return self::convert($text);
     }
 
 }

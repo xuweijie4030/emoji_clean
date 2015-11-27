@@ -1,9 +1,8 @@
 {
-    "name": "xu-feng/emoji_clean",
+    "name": "fengshangyue/emoji_clean",
     "description": "Emoji expression in the string.",
     "type": "library",
     "keywords": ["emoji", "php"],
-    "homepage": "https://github.com/xu-feng/emoji_clean",
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +11,10 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {"type": "git", "url": "https://github.com/xu-feng/emoji_clean"}
-    ],
-    "minimum-stability": "stable"
+    "autoload": {
+        "psr-4": {
+            "Fengshangyue\\Emoji_clean\\": ""
+        }
+    },
+    "minimum-stability": "dev"
 }
