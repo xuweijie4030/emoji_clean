@@ -1,5 +1,5 @@
 {
-    "name": "emoji/emoji_clean",
+    "name": "marnong/emoji_clean",
     "description": "Emoji expression in the string.",
     "type": "library",
     "keywords": ["emoji", "php"],
