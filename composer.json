@@ -1,5 +1,5 @@
 {
-    "name": "fengshangyue/emoji_clean",
+    "name": "emoji/emoji_clean",
     "description": "Emoji expression in the string.",
     "type": "library",
     "keywords": ["emoji", "php"],
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Fengshangyue\\Emoji_clean\\": ""
+            "Emoji\\Emoji_clean\\": ""
         }
     },
     "minimum-stability": "dev"

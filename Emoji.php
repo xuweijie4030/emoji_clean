@@ -4,7 +4,7 @@
  * $emojiCode : 2015-11-26 最新版ios9键盘全部自带表情utf8码与英文名称
  * **/
 
-namespace Fengshangyue\Emoji_clean;
+namespace Emoji\Emoji_clean;
 
 class Emoji {
 
